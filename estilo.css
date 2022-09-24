@@ -9,10 +9,11 @@
     height: auto;
     padding: 2rem; 
 }
-img:hover {
-    transform: scale(1.5,1.5);
+main img:hover {
+    transform: scale(1,1);
     cursor: pointer;
     transition: 0.5s;
+    opacity: 0.5;
 }
 nav .row .col-12 {
     display: flex;
@@ -34,6 +35,43 @@ nav .row .col-12 .info a:hover{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 3rem;
+}
+.image1 {
+    position:relative;
+    background: url("./assets/imagenes/anchas/dsc_1728.jpg") no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;    
+}
+h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align:center;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -400px;
+    opacity:0.8;
+}
+ 
+h2{
+    color: #fff;
+    font-size: 55px;
+    text-align:center;
+    margin: 0 auto;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    opacity:0.8;
 }
 
 @media (max-width: 420px) {
